@@ -23,7 +23,7 @@ public class Ejemplo04 {
         while (contador >= limite_inferior && contador <= limite_superior){
             suma = suma + contador;
             System.out.printf("Contador %d\n", contador);
-            contador = contador + 1;
+            contador = contador + 5;
         }
         
         System.out.printf("La suma final es %d\n", suma);

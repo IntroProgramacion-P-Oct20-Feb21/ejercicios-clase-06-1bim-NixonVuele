@@ -26,6 +26,7 @@ public class UsoSwitch3 {
         entrada.useLocale(Locale.US);
         
         System.out.println("Ingrese el nombre de una ciudad del Ecuador");
+        // nombre = "Quito"
         String nombre = entrada.nextLine();
         
         char valor = nombre.charAt(0); // obtener el primer caracter de una
